@@ -2,6 +2,8 @@ using Microsoft.EntityFrameworkCore;
 using student_api.Models;
 
 var builder = WebApplication.CreateBuilder(args);
+var configuration = builder.Configuration;
+
 
 // Add services to the container.
 

@@ -19,7 +19,7 @@ namespace student_api.Controllers
         [HttpGet]
         public string Get() {
 
-            return "adi";
+            return "Hello World";
         }
     }
 }
